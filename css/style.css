@@ -1,0 +1,44 @@
+body{
+    font-family: lato;
+}
+.card-img-top{
+    width: 100%;
+    height: 300px;
+}
+.input-group-text {
+background: darkred;
+color: white;
+border-color: darkred;
+}
+.form-control {
+border: 0.2rem solid darkred;
+}
+.submitBtn {
+color: darkred;
+background: white;
+border: 0.2rem solid darkred;
+transition: all 1s ease-in-out;
+}
+.submitBtn:hover {
+background: darkred;
+color: white;
+}
+.fail {
+border-color: red;
+}
+.complete {
+border-color: green;
+}
+.loading {
+display: none;
+}
+.feedback {
+    display: none;
+    color: darkred;
+}
+.disabled {
+opacity: 0.2 !important;
+}
+.showItem {
+display: block;
+}
